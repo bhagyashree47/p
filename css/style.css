@@ -1147,11 +1147,11 @@ span.carousleContent {
 .flipster__item--current span.carousleContent {
     color: #000;
 }
-.tab-content #laadli p span, .tab-content #AMCHI p span {
+.tab-content #laadli p span, .tab-content #amchi p span {
     display: inline-block;
     margin-bottom: 0.5em;
 }
-.tab-content #laadli p span::before, .tab-content #AMCHI p span::before {
+.tab-content #laadli p span::before, .tab-content #amchi p span::before {
     display: inline-block;
     border: 4px solid #fff;
     content: " ";
@@ -1162,8 +1162,9 @@ span.carousleContent {
     top: -2px;
     left: -4px;
 }
-#laadli .flipster__item--current .carousleContent p span::before, #AMCHI .flipster__item--current .carousleContent p span::before{
-    border: 4px solid #e81a25;
+#laadli .flipster__item--current .carousleContent p span::before, 
+#amchi .flipster__item--current .carousleContent p span::before{
+    border: 4px solid #e81a25 !important;
 }
 /*About Us Page CSS Ends*/
 
@@ -1180,13 +1181,19 @@ span.carousleContent {
     display: none !important;
 }
 #Laadli-MediaAdvocacy{
-    background-image: url('../images/pages-banner/Amchi/amchi-landing.jpg');
+    background-image: url('../images/pages-banner/Laadli/laddli-Landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
     position: relative;
 }
-
+#Laadli-YouthInitiatives{
+    background-image: url('../images/pages-banner/Laadli/laddli-Landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
 .search-found {
    font-style: italic;
 }
@@ -2052,7 +2059,7 @@ span.card-text {
 .Contact-Main-heading {
     line-height: 1.5em;
     font-weight: 600;
-    font-size: 2.1875rem;
+    font-size: 2rem;
     color: black;
     position: relative;
 }
