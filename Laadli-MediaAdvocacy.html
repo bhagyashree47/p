@@ -54,13 +54,14 @@
                         <a class="nav-link" href="AboutUs.html">About us<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="AMCHI-landing.html">AMCHI</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="Laadli-landing.html"><i>Laadli</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Other Programs</a>
+                        <a class="nav-link" href="AMCHI-landing.html">AMCHI</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="other-page.html">Other Programs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Event.html">Event</a>
@@ -75,7 +76,7 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item btn-red">
-                        <a class="nav-link" href="#">Donate Now</a>
+                        <a class="nav-link" href="contact.html">Donate Now</a>
                     </li>
                 </ul>
             </div>
@@ -102,7 +103,7 @@
                         <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(2)" href="#Laadli-InstitutionalSupport">Creating Institutional Support </a>
                     </li>
                     <li class="nav-item col-md-4 my-2">
-                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(3)" href="#AMCHI-heath-initiatives">Celebrating Positive Changes </a>
+                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(3);" href="#Laadli-Celebrating-PositiveChanges">Celebrating Positive Changes </a>
                     </li>
                     <li class="nav-item col-md-4 my-2">
                         <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(4)" href="#AMCHI-ruralDevelopment">Innovative Campaigns </a>
@@ -165,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-8 mx-auto mt-5 pb-0 mb-0">
+                <div class="col-sm-12 col-lg-8 mx-auto mt-5 pb-0 mb-0">
                     <div class="section-heading text-center mb-4 container">Video</div>
                     <iframe class="border-0" width="100%" height="350px" src="https://www.youtube.com/embed/BrxeW8IPL-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -193,11 +194,11 @@
                 <div class="submenu-block text-center col-sm-12 py-5">
                     <div class="container">
                         <ul id="MediaAdvocacy-GenderMediaWorkshops" role="tablist" class="nav nav-tabs text-center d-sm-flex justify-content-lg-center justify-content-start flex-md-wrap flex-sm-nowrap">
-                            <li class="nav-item  flex-sm-fill col-sm-4 mt-md-4">
+                            <li class="nav-item  flex-sm-fill col-sm-6 col-lg-4 mt-md-4">
                                 <a id="BuildingSkills-home-tab" data-toggle="tab" href="#BuildingSkills-first-tab" role="tab" onclick="myFunction()" aria-controls="BuildingSkills-first-tab" aria-selected="true" class="px-3 mr-md-5 active nav-link sub-menu justify-content-center align-self-center d-flex align-items-center img-GenderMediaWorkshop">Gender Media Workshops </a>
                             </li>
-                            <li class="nav-item  flex-sm-fill col-sm-4 mt-md-4">
-                                <a id="BuildingSkills-profile-tab" data-toggle="tab" href="#BuildingSkills-secont-tab" role="tab" onclick="myFunction()" aria-controls="BuildingSkills-secont-tab" aria-selected="false" class="px-3 mx-md-3 nav-link d-flex align-items-center sub-menu justify-content-center img-LaadliMedia-Fellowship"><i>Laadli</i> Media Fellowship for Journalists </a>
+                            <li class="nav-item  flex-sm-fill col-sm-6 col-lg-4 mt-md-4">
+                                <a id="BuildingSkills-profile-tab" data-toggle="tab" href="#BuildingSkills-secont-tab" role="tab" onclick="myFunction2()" aria-controls="BuildingSkills-secont-tab" aria-selected="false" class="px-3 mx-md-3 nav-link d-flex align-items-center sub-menu justify-content-center img-LaadliMedia-Fellowship"> <i>Laadli</i> Media Fellowship for Journalists </a>
                             </li>
                         </ul>
                     </div>
@@ -217,9 +218,11 @@
                                 <p><p class="mt-4 pb-4">
                                     <b>Fund &amp; Support:</b> If you wish to organize or support gender media workshops for students or working journalists, please 
                                     <a href="contact.html" class="color-red"><ins>Contact Us</ins></a>. 
-                                </p></p>
+                                </p>
                             </div>
+                       
                             <!-- Gender Media Workshops Gallery -->
+
                             <div class="gallery-sec mt-5">
                                 <div class="section-heading text-center mt-5 mb-4">Gallery</div><br>
                                 <div class="slider-gallery py-5 px-3">
@@ -237,7 +240,7 @@
                                         </ul>
                                     </div>
                                     <script>
-                                        var carousel = $("#GenderMedia-Workshops").flipster({
+                                            var carousel = $("#GenderMedia-Workshops").flipster({
                                             style: 'carousel',
                                             itemContainer: 'ul',
                                             itemSelector: 'li',
@@ -288,6 +291,7 @@
                                         </ul>
                                     </div>
                                     <script>
+                                        function myFunction2(){
                                         var carousel = $("#LaadliMedia-Fellowship-Journalists").flipster({
                                             style: 'carousel',
                                             itemContainer: 'ul',
@@ -298,6 +302,7 @@
                                             buttons: true,
                                             scrollwheel: false
                                         });
+                                    }
                                     </script>
                                 </div>
                             </div>
@@ -323,13 +328,13 @@
                     <div class="container">
                         <ul id="MediaAdvocacy-CreatingInstitutionalSupport" role="tablist" class="nav nav-tabs text-center d-sm-flex justify-content-lg-center justify-content-start flex-md-wrap flex-sm-nowrap">
                             <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-4">
-                                <a id="home-tab" data-toggle="tab" href="#first-tab" role="tab" onclick="myFunction()" aria-controls="first-tab" aria-selected="true" class="px-3 mr-md-5 active nav-link sub-menu justify-content-center align-self-center d-flex align-items-center img-Advocacy-Advertising">Advocacy with Advertising, Film and TV Professionals</a>
+                                <a id="home-tab" data-toggle="tab" href="#first-tab" role="tab" aria-controls="first-tab" aria-selected="true" class="px-3 mr-md-5 active nav-link sub-menu justify-content-center align-self-center d-flex align-items-center img-Advocacy-Advertising">Advocacy with Advertising, Film and TV Professionals</a>
                             </li>
                             <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-4">
-                                <a id="profile-tab" data-toggle="tab" href="#secont-tab" role="tab" onclick="myFunction()" aria-controls="secont-tab" aria-selected="false" class="px-3 mx-md-3 nav-link d-flex align-items-center sub-menu justify-content-center img-MediaLeaders-Consultations">Media Leaders Consultations and Editors Meet </a>
+                                <a id="profile-tab" data-toggle="tab" href="#secont-tab" role="tab" onclick="myFunctionMediaAdvocacy1()" aria-controls="secont-tab" aria-selected="false" class="px-3 mx-md-3 nav-link d-flex align-items-center sub-menu justify-content-center img-MediaLeaders-Consultations">Media Leaders Consultations and Editors Meet </a>
                             </li>
                             <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-4">
-                                <a id="contact-tab" data-toggle="tab" href="#third-tab" role="tab" onclick="myFunction()" aria-controls="third-tab" aria-selected="false" class="px-3 ml-md-5 nav-link d-flex align-items-center sub-menu justify-content-center img-Advocacy-Government-Communication">Advocacy with Government Communication
+                                <a id="contact-tab" data-toggle="tab" href="#third-tab" role="tab" aria-controls="third-tab" aria-selected="false" class="px-3 ml-md-5 nav-link d-flex align-items-center sub-menu justify-content-center img-Advocacy-Government-Communication">Advocacy with Government Communication
                                     Officials </a>
                             </li>
                         </ul>
@@ -338,6 +343,7 @@
 
                 <div class="tab-submenu-details pt-5">
                     <div id="myTabContent" class="tab-content">
+                        <!---------------- Inside First tab ---------------->
                         <div id="first-tab" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade pt-5 show active">
                             <div class="container">
                                 <div class="section-heading-twoLine text-center"><p>Advocacy with Advertising, <br>Film and TV Professionals</p></div><br>
@@ -363,7 +369,7 @@
                                                     Eminent panels of external jury members selected the winners of all the three editions. 
                                                     The material developed is widely disseminated through development of appropriate merchandise. <br><br>
                                                     To know more about NCEA, <a class="color-red" href="images/documents/images/documents/NCEA-Report.pdf">Click Here </a><br><br>
-                                                    <div  class="color-red">Please have a look at our merchandise material: 
+                                                    <div  class=""><b>Please have a look at our merchandise material: </b>
                                                         <div class="file-downBtn"> 
                                                             <a  target="_blank" href="resource.html" class="text-body down-pdf m-0">
                                                                 <span class="pdf-icon"></span>Click Here
@@ -387,11 +393,11 @@
                                         <div class="panel">
                                             <ul class="py-4 pl-3 pl-md-4">
                                                 <li>VOW: A one-day seminar was organized in collaboration with IAA on Violence on Women which was attended by the leaders of major advertising agencies and had the leaders engaging in candid conversations.
-                                                    <div  class="color-red">Please have a look at video: 
+                                                    <div  class=""><b>Please have a look at video: </b>
                                                         <div class="file-downBtn"> 
                                                             <a target="_blank" href="https://www.youtube.com/watch?list=PLtXhCISzZCv4Nij0bbpP6Uwa6FQ9wTo6X&v=rmLnd5NidNU" class="text-body down-pdf m-0">
                                                                 <span class="pdf-icon"></span>Click Here
-                                                            </a target="_blank"> 
+                                                            </a> 
                                                         </div>
                                                     </div>
                                                 </li>
@@ -419,7 +425,7 @@
                                         <div class="panel">
                                             <ul class="py-4 pl-3 pl-md-4">
                                                 <li>A dipstick survey was conducted to assess the prevalence of gender discrimination and sexual harassment in media and advertising agencies. The study was titled “Workspace Gender Equality Opinion Survey Report” The findings were presented at a workshop titled “Men are from Venus, Women are from Mars” organized in collaboration with “Social Access”
-                                                    <div  class="color-red">Please have a look at video: 
+                                                    <div  class=""><b>Please have a look at video: </b>
                                                         <div class="file-downBtn"> 
                                                             <a href="#"  target="_blank"  class="text-body down-pdf m-0">
                                                                 <span class="pdf-icon"></span>Click Here
@@ -455,7 +461,7 @@
                             </div>
                         </div>
 
-                        <!---------------- Second tab ---------------->
+                        <!---------------- Inside Second tab ---------------->
                         <div id="secont-tab" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade pt-5">
                             <div class="container">
                                 <div class="section-heading-twoLine text-center"><p>Media Leaders Consultations <br> and Editors Meet </p></div><br>
@@ -488,6 +494,7 @@
                                         </ul>
                                     </div>
                                     <script>
+                                        function myFunctionMediaAdvocacy1(){
                                         var carousel = $("#MediaLeaders-Consultations").flipster({
                                             style: 'carousel',
                                             itemContainer: 'ul',
@@ -498,12 +505,13 @@
                                             buttons: true,
                                             scrollwheel: false
                                         });
+                                    }
                                     </script>
                                 </div>
                             </div>
                         </div>
 
-                        <!---------------- Third tab ---------------->
+                        <!---------------- Inside Third tab ---------------->
                         <div id="third-tab" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade pt-0 pt-md-5">
                             <div class="container">
                                 <div class="section-heading-twoLine text-center"><p>Advocacy with Government <br> Communication Officials  </p></div><br>
@@ -546,9 +554,9 @@
                 </div>  
             </div>
 
-            <!-- 3nd Tab -->
+            <!-- 3rd Tab -->
 
-            <div id="AMCHI-heath-initiatives" class="tab-pane fade"><br>
+            <div id="Laadli-Celebrating-PositiveChanges" class="tab-pane fade"><br>
                 <div class="container">
                     <ul class="breadcrumb breadcrumb-sec m-0">
                         <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
@@ -583,7 +591,7 @@
                                     Language specific jury meetings are held in different cities to engage the local media leaders and cultural icons in the process of selection of winning entries thus creating a pool of opinion leaders who promote gender sensitivity in media.
                                     <br><br>
                                 </p>
-                                <p><b>To know more about the various editions of our awards please visit our Resources Page. </b> </p>
+                                <p><b>To know more about the various editions of our awards please visit our <a class="color-red" href="resource.html">Resources.</a></b> </p>
                             </div>
                         </div>
                     </div>
@@ -592,7 +600,7 @@
                             <div class="gallery-sec my-5">
                                 <div class="section-heading text-center mt-5 mb-4">Gallery</div>
                                 <div class="slider-gallery py-5 px-3">
-                                    <div id="CelebratingPositive-Changes" class="container">
+                                    <div id="CelebratingPositive_Changes" class="container">
                                         <ul class="flip-items">
                                             <li data-flip-title="carouselImg1">
                                                 <img src="images/gallery/Laadli/CelebratingPositive-Changes/01.jpg">
@@ -617,8 +625,9 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <script>
-                                        var carousel = $("#CelebratingPositive-Changes").flipster({
+                                <script>       
+                               function temp(){
+                                        var carousel = $("#CelebratingPositive_Changes").flipster({
                                             style: 'carousel',
                                             itemContainer: 'ul',
                                             itemSelector: 'li',
@@ -628,6 +637,7 @@
                                             buttons: true,
                                             scrollwheel: false
                                         });
+                               }    
                                     </script>
                                 </div>
                             </div>
@@ -649,6 +659,7 @@
                 </div><br>
                 <div class="tab-submenu-details ">
                     <div id="myTabContent" class="tab-content">
+                        <!--  Innovative Campaigns Tab -->
                         <div id="rural-first-tab" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade show active">
                             <div class="container">
                                 <p class="text-muted">
@@ -801,7 +812,7 @@
 
 
 
-<!------------------------------------------------------------------------------- Footer -------------------------------------------------------------->
+<!---------------------------------------------------------------------------- Footer start ------------------------------------------------------->
     <footer class="pt-2">
         <div class="container-fluid">
             <div class="footer-details">
@@ -835,17 +846,17 @@
                     <div class="col-lg-3 col-mb-3 col-sm-12">
                         <ul class="list-inline social-buttons mb-0 mt-0">
                             <li class="list-inline-item">
-                                <a class="fb" href="#">
+                                <a class="fb" target="_blank" href="https://www.facebook.com/population.first">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="tw" href="#">
+                                <a class="tw" target="_blank" href="https://twitter.com/Laadli_PF">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="youtube" href="#">
+                                <a class="youtube" target="_blank" href="https://www.youtube.com/user/LaadliWest">
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
@@ -860,7 +871,7 @@
             </div>
         </div>
     </footer>
-<!---------------------------------------------------------------------------- Footer Ends ------------------------------------------------------------>
+<!---------------------------------------------------------------------------- Footer Ends -------------------------------------------------------->
 
 
     
@@ -921,7 +932,7 @@
 </script> -->
 
 
-<!--------------------------------------------------------------------  Accordian  ---------------------------------------------------->
+<!------------------------------------------------------------------------  Accordian  ------------------------------------------------------------->
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -937,8 +948,7 @@
     });
     }
 </script>
-<!--------------------------------------------------------------------  Accordian  ---------------------------------------------------->
-
+<!------------------------------------------------------------------------  Accordian  ------------------------------------------------------------->
 
 
 <!---------------------------------------------------------------- Amol -  Amchi tab & landing page  ----------------------------------------------->
@@ -968,16 +978,17 @@
     <script>
         function changeImage(val) {
             if (val == 1) {
-                $('#AmchiLanding').css("background-image", "url('images/pages-banner/Amchi/microplanning.jpg')");
+                $('#Laadli-MediaAdvocacy').css("background-image", "url('images/pages-banner/Laadli/MediaAdvocacy-Initiatives/BuildingSkills.jpg')");
                 // $('.heroSecTitle').html("Audio Video Resources");
             } else if (val == 2) {
-                $('#AmchiLanding').css("background-image", "url('images/pages-banner/Amchi/Strengthening-panchayat.jpg')");
+                $('#Laadli-MediaAdvocacy').css("background-image", "url('images/pages-banner/Laadli/MediaAdvocacy-Initiatives/Creating-InstitutionalSupport.jpg')");
                 // $('.heroSecTitle').html("Newsletter");
             } else if (val == 3) {
-                $('#AmchiLanding').css("background-image", "url('images/pages-banner/Amchi/Health-Initiatives.jpg')");
+                $('#Laadli-MediaAdvocacy').css("background-image", "url('images/pages-banner/Laadli/MediaAdvocacy-Initiatives/celebrating-positiveChanges.jpg')");
+                temp();
                 // $('.heroSecTitle').html("Press Release");
             } else if (val == 4) {
-                $('#AmchiLanding').css("background-image", "url('images/pages-banner/Amchi/rural-development.jpg')");
+                $('#Laadli-MediaAdvocacy').css("background-image", "url('images/pages-banner/Laadli/MediaAdvocacy-Initiatives/innovativeCampaign.jpg')");
                 // $('.heroSecTitle').html("Our Coverage");
             }
         }
