@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AMCHI-Landing</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--  owl carousel JS  -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--Flipster Carousel CSS-->
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/foopicker.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Flipster Carousel JS-->
+    <script src="js/jquery.flipster.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--  owl carousel JS  -->
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <script type="text/javascript" src="js/foopicker.js"></script>
+
+</head>
+
+<body>
+
+    <div id="popLogo" class="logo text-center col-sm-12 px-0 pb-2">
+        <a href="Homepage.html"><img class="img-fluid" src="images/logo.png" alt="logo"></a></div>
+
+    <!--------------------------------------------------------- Navigation --------------------------------------------------------->
+
+    <nav id="mynav" class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top py-2 py-lg-4">
+        <div class="container">
+            <button class="navbar-toggler float-md-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">About us<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="AMCHI-landing.html">AMCHI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Laadli-landing.html"><i>Laadli</i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Other Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Event.html">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Media-centre.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resource.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item btn-red">
+                        <a class="nav-link" href="#">Donate Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Scetion -->
+
+    <header>
+        <div id="media-center" class="heroImage">
+            <p class="heroSecTitle">Media Centre</p>
+        </div>
+    </header>
+    <!--Tab Menu-->
+
+    <!-- Nav pills -->
+    <div class="MainPage-Tab">
+        <div class="container">
+            <div class="row">
+                <ul class="nav nav-pills custom_nav" role="tablist">
+                    
+                    <li class="nav-item col-md-4 my-2">
+                        <a class="nav-link d-flex justify-content-center align-items-center active" data-toggle="pill" onclick="changeImage(1)" href="#Media-AudioVideo">Audio Video Resources </a>
+                    </li>
+                    <li class="nav-item col-md-4 my-2">
+                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(2)" href="#Media-Newsletters">Newsletters </a>
+                    </li>
+                    <li class="nav-item col-md-4 my-2">
+                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(3)" href="#Media-PressRelease">Press Release </a>
+                    </li>
+                    <li class="nav-item col-md-4 my-2">
+                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(4)" href="#Media-Coverage ">Our Coverage</a>
+                    </li>
+                    <li class="nav-item col-md-4 my-2">
+                        <a class="nav-link d-flex justify-content-center align-items-center" data-toggle="pill" onclick="changeImage(5)" href="#Media-Sensitivity">Gender Sensitivity in Media </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Tab -->
+
+
+    <div class="container-fluid tabDetails px-0">
+        <div class="tab-content">
+
+            <div id="Media-AudioVideo" class="tab-pane active"><br>
+                <div class="container">
+                    <ul class="breadcrumb breadcrumb-sec m-0">
+                        <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="AMCHI-landing.html">Media Centre</a></li>
+                        <li class="breadcrumb-item active">Audio Video Resources</li>
+                    </ul>
+                </div><br>
+                <div class="submenu-block text-center col-sm-12 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <ul id="myTab" role="tablist" class="nav nav-tabs text-center d-flex flex-nowrap overflow-hidden justify-content-start align-items-start">
+                                <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-3">
+                                    <a id="home-tab" data-toggle="tab" href="#Laadli-MediaAwards" role="tab" aria-controls="first-tab" aria-selected="true" class="active px-3 mr-md-4 nav-link sub-menu d-flex align-items-center justify-content-center img-MediaCenter-LMA"> Laadli Media
+                                        Awards </a>
+                                </li>
+                                <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-3">
+                                    <a id="profile-tab" data-toggle="tab" href="#heath-secont-tab" role="tab" aria-controls="secont-tab" aria-selected="false" class="px-3 mr-md-4 nav-link sub-menu d-flex align-items-center justify-content-center img-MediaCenter-APC">Legends
+                                        for Laadli </a> 
+                                </li>
+                                <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-3">
+                                    <a id="contact-tab" data-toggle="tab" href="#heath-third-tab" role="tab" aria-controls="third-tab" aria-selected="false" class="px-3 mr-md-4 nav-link sub-menu d-flex align-items-center justify-content-center img-MediaCenter-IC">Innovative Campaigns </a>
+                                </li>
+                                <li class="nav-item flex-sm-fill col-sm-6 col-md-4 mt-sm-3">
+                                    <a id="contact-tab" data-toggle="tab" href="#heath-four-tab" role="tab" aria-controls="four-tab" aria-selected="false" class="px-3 mr-md-4 nav-link sub-menu d-flex align-items-center justify-content-center img-MediaCenter-workshops"> Workshops </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-submenu-details pt-5">
+                    <div id="myTabContent" class="tab-content">
+
+                        <div id="Laadli-MediaAwards" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade pt-5 show active">
+                            <div class="container">
+                                <div class="section-heading-twoLine text-center mb-5">
+                                    <p class="">Laadli Media <br> Awards </p>
+                                </div>
+                                
+                                <div class="videos col-sm-12">
+                                    <div class="row">
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>South Asia Laadli Media & Advertising Awards for Gender Sensitivity 2017</h4>
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/r9fyBwdlIb8?list=PLcBc3GVws7iBhPx7F6Owie693fEcDJgHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 1<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+
+                                        
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>South Asia Laadli Media and Advertising Awards for Gender Sensitivity 2015-16</h4>
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/1CorknPc1F8?list=PLcBc3GVws7iAhMPrjsy5Ckg5UcExqolWF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 2<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+
+                                        
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>Laadli Media and Advertising Awards for gender Sensitivity 2014-15</h4>
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/0aW0Owex1EA?list=PLcBc3GVws7iDZ_7akKh37zXOJdiH24H59" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 3<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>Laadli Media and Advertising Awards for Gender Sensitivity 2012-13</h4>
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/wYs1CEe3TrA?list=PLcBc3GVws7iCt9Jn6geYmIGkcBus4FDHj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 3<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---------------- Second tab ---------------->
+                        <div id="heath-secont-tab" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade pt-5">
+                            <div class="container">
+                                <div class="section-heading text-center">Legends for Laadli</div><br><br>
+                                <div class="videos col-sm-12">
+                                    <div class="row">
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <!-- <h4>South Asia Laadli Media & Advertising Awards for Gender Sensitivity 2017</h4> -->
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/MD6AUHjrWVI?list=PLcBc3GVws7iDBI9IGactxTxcCtiX3a4_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 1<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---------------- Third tab ---------------->
+                        <div id="heath-third-tab" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade pt-5">
+                            <div class="container">
+                                <div class="section-heading text-center">Innovative Campaigns </div><br><br>
+                                <div class="videos col-sm-12">
+                                    <div class="row">
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <!-- <h4>South Asia Laadli Media & Advertising Awards for Gender Sensitivity 2017</h4> -->
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/BHw5jHWHAx0?list=PLcBc3GVws7iDHqBpsOEugnlE4tDLcVgRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 1<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---------------- Four tab ---------------->
+                        <div id="heath-four-tab" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade pt-5">
+                            <div class="container">
+                                <div class="section-heading text-center"> Workshops </div><br><br>
+                                <div class="videos col-sm-12">
+                                    <div class="row">
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>IAA Workshop in association with Population First</h4>
+                                            <iframe class="col-md-4 mt-2" height="180" src="https://www.youtube.com/embed/IvcF0bq8ZmU?list=PLcBc3GVws7iDW1svFxt9NIEtqjTDdUf_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 1<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+                                        <div class="Laadli-Awards col-md-12 mb-5">
+                                            <h4>AMCHI – Landing Page – You have already put preview of the video in the design</h4>
+                                            <iframe class="col-md-4 mt-2 " height="180" src="https://www.youtube.com/embed/Irn0Bt8uOTk?list=PLcBc3GVws7iBt06sEAf1lTMlq4-ecblMd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <p class="my-2">Video 1<br>
+                                                <span>765,42 views</span>
+                                            </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End rounded tabs -->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div id="Media-Newsletters" class="tab-pane fade"><br>
+                <div class="container">
+                    <ul class="breadcrumb breadcrumb-sec">
+                        <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="AMCHI-landing.html">Media Centre</a></li>
+                        <li class="breadcrumb-item active">Newsletters</li>
+                    </ul>
+                    <br><br>
+
+                    <div class="date-filter col-sm-12">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12 date-block mb-2">
+                                <label>Start Date</label>
+                                <i class="fas fa-calendar-alt"></i>
+                                <input  class="pr-2" type="text" id="datepicker" value="02/07/2017"/>
+                            </div>
+                            <div class="col-md-5 col-sm-12 date-block mb-2">
+                                <label>End Date</label>
+                                <i class="fas fa-calendar-alt"></i>
+                                <input  class="pr-2" type="text" id="datepicker2" value="18-May-2017"/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12 pdf-sections my-5">
+                        <div class="col-md-12 section-heading text-center">2018</div><br>
+                        <div class="row">
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter Jan 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/Jan-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter Feb 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/Feb-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter March to April 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/March-April-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter May 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/May-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter June 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/June-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter July to Oct 2018</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/July-Oct-2018.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter Nov’18-Jan’19</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2018/Nov-Jan-2019.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 pdf-sections my-5">
+                        <div class="col-md-12 section-heading text-center">2019</div><br>
+                        <div class="row">
+                            <div class="col-md-4 mb-5">
+                                <p class="mb-2">Newsletter Feb-Apr 2019</p>
+                                <a class="down-pdf mx-0 mt-2" href="images/documents/MediaCenter/Newsletter/2019/Feb-April-2019.pdf" target="_blank"><span class="pdf-icon"></span>Click here</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Media-Coverage" class="tab-pane fade"><br>
+                <div class="container">
+                    <ul class="breadcrumb breadcrumb-sec m-0">
+                        <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="AMCHI-landing.html">Media Centre</a></li>
+                        <li class="breadcrumb-item active">Our Coverage</li>
+                    </ul>
+                    <br><br>
+                    <div class="main-article mb-5 pb-3 row">
+                        <div class="col-sm-12 col-md-5"><img class="img-fluid" src="images/blog/Coverage/facing-mirrors-iran.jpg" alt="img05"></div>
+                        <div class="col-sm-12 col-md-7 article-content">
+                            <a class="text-decoration-none" href="https://www.dnaindia.com/lifestyle/report-doosra-chasma-a-travelling-film-festival-to-galvanize-gender-parity-2133055" target="_blank">
+                                <h5 class="Sensitive-media mb-4">
+                                    <span class="font-weight-normal mt-sm-2 mt-md-0 mb-2 d-block">The Hindu</span>
+                                    Doosra Chashma: A travelling film festival to galvanize gender parity
+                                    <p class="font-weight-normal mt-4">The festival comes out of the commitment of the NGO Population First to work for gender parity and acknowledges the power of the moving image in aiding the same.<br><br>October 9, 2015 </p>   
+                                </h5>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <a href="https://www.thehindu.com/news/cities/Visakhapatnam/entries-invited-for-laadli-awards/article7672132.ece" target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-01.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">The Hindu</span>
+                                The Hindu: Call for Entries in Vishakhapatnam for seventh edition
+                                <p class="font-weight-normal my-2 ">SEPTEMBER 21, 2015 </p>  
+                            </h5>          
+                        </a> 
+                        <a href="https://www.campaignindia.in/article/laadli-awards-for-gender-sensitivity-calls-for-entries/423530" target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-01.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">Campaign India</span>
+                                Laadli Awards for Gender Sensitivity Calls for Entries
+                                <p class="font-weight-normal my-2 ">SEPTEMBER 21, 2015</p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.dnaindia.com/mumbai/interview-to-10-years-and-more-2094990"  target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-02.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">DNA India</span>
+                                To 10 years and more
+                                <p class="font-weight-normal my-2 ">JUNE  12, 2015</p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.campaignindia.in/article/influencing-the-influencers-a-decade-on-the-laadli-campaign-labours-on/422802" target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-03.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">Campaign India</span>
+                                Influencing the influencers: A decade on, the Laadli campaign labours on
+                                <p class="font-weight-normal my-2 ">SEPTEMBER 21,  2015</p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.campaignindia.in/article/common-sense-was-my-only-qualification-bobby-sista-recipient-aaai-lifetime-a/423256" target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-04.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">Campaign India</span>
+                                Common sense was my only qualification': Bobby Sista, recipient, AAAI Lifetime Achievement Award 2015
+                                <p class="font-weight-normal my-2 ">AUGUST  05, 2015</p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.campaignindia.in/article/bobby-sista-to-be-honoured-with-aaai-lifetime-achievement-award-2015/423045" target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/Coverage/Coverage-05.jpg" alt="img05"></figure>	
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">Campaign India</span>
+                                Bobby Sista to be honoured with AAAI Lifetime Achievement Award 2015
+                                <p class="font-weight-normal my-2 ">JULY  01,  2015</p>
+                            </h5>
+                        </a> 
+                        <a  target="_blank" class="col-sm-12 col-md-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <iframe width="100%" height="280" src="https://www.youtube.com/embed/5mhOqtNSGdc?list=PLcBc3GVws7iBYrodCe6-5d3gIwNlvvfR2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h5 class="Sensitive-media mt-4">
+                                <span class="font-weight-normal my-2 d-block">Population First in Media</span>
+                                Brand Bazaar - Discussion on Gender portrayal in Media
+                                <!-- <p class="font-weight-normal my-2 ">JUNE  12, 2015</p> -->
+                            </h5>
+                        </a> 
+                    </div>
+                    <div class="pagination d-flex justify-content-center mt-5">
+                        <a class="next-prev d-flex align-items-center" href="#"><!-- &laquo;  --><i class="fas fa-long-arrow-alt-left pr-2"></i> prev</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a class="next-prev d-flex align-items-center" href="#"> next <!-- &raquo; --> <i class="fas fa-long-arrow-alt-right pl-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Media-PressRelease" class="tab-pane fade"><br>
+                <div class="container">
+                    <ul class="breadcrumb breadcrumb-sec m-0">
+                        <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="AMCHI-landing.html">Media Centre</a></li>
+                        <li class="breadcrumb-item active"> Press Release </li>
+                    </ul>
+                </div><br>
+                <p class="comingSoon text-center my-5 py-5">Coming Soon</p> 
+            </div>
+    
+            <div id="Media-Sensitivity" class="tab-pane fade"><br>
+                <div class="container">
+                    <ul class="breadcrumb breadcrumb-sec m-0">
+                        <li class="breadcrumb-item"><a href="Homepage.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="AMCHI-landing.html">Media Centre</a></li>
+                        <li class="breadcrumb-item active"> Gender Sensitivity in Media </li>
+                    </ul><br><br>
+                    <div class="row">
+                        <a href="http://www.caravanmagazine.in/reportage/trafficked-children-silchar-red-light-area" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-01.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                The Price of Life
+                                <p class="font-weight-normal">Written By Sarita Santoshini </p>  
+                            </h5>          
+                        </a> 
+                        <a href="http://morungexpress.com/village-phek-dist-revived-millets-became-gender-wise/" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-02.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                How A Village In Phek District Revived Millets And Became Gender Wise.
+                                <p class="font-weight-normal">Written By Aheli Moitra  </p>
+                            </h5>
+                        </a> 
+                        <a href="https://scroll.in/article/857160/assam-how-tribal-communities-brew-apong-their-drink-reveals-a-lot-about-gender-and-tradition" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-03.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                Hands That Brew
+                                <p class="font-weight-normal">Writtern by Rini Barman  </p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.thequint.com/news/india/child-marriage-in-odisha" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-04.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                Time’s Up, Age-Old Beliefs! Odisha Is saying No To Child Marriage  
+                                <p class="font-weight-normal">Written by Basudev Mahapatra</p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.business-standard.com/article/news-ians/privacy-issues-haunt-bihar-s-flood-hit-women-117081900542_1.html" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-05.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                Privacy issues haunt Bihar's flood-hit women (August 19, 2017)
+                                <p class="font-weight-normal">Written by Mohd Imran Khan </p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.huffingtonpost.in/2017/09/23/theres-a-secret-kashmiri-women-are-keeping-from-their-families_a_23217518/" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <figure><img class="img-fluid" src="images/blog/media-centre/SensitivityMedia/SensitivityMedia-06.png" alt="img05"></figure>	
+                            <h5 class="Sensitive-media">
+                                There is a Secret Kashmiri Women Are Keeping From Their Families
+                                <p class="font-weight-normal">Written by Adrija Bose </p>
+                            </h5>
+                        </a> 
+                        <a href="https://www.huffingtonpost.in/2017/09/23/theres-a-secret-kashmiri-women-are-keeping-from-their-families_a_23217518/" target="_blank" class="col-sm-6 px-sm-2 px-md-5 px-0 my-4 text-decoration-none">
+                            <iframe width="100%" height="280px" src="https://www.youtube.com/embed/jzRcX2OYHLA?list=PLcBc3GVws7iAhVmxZnCpoBmFszOt41eoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+                            <h5 class="Sensitive-media">
+                                Uncommon Marraige.wmv by Gayatri Bhattacharjee
+                                <!-- <p class="font-weight-normal">Written by Adrija Bose </p> -->
+                            </h5>
+                        </a> 
+                    </div>
+                    <div class="pagination d-flex justify-content-center mt-5">
+                        <a class="next-prev d-flex align-items-center" href="#"><!-- &laquo;  --><i class="fas fa-long-arrow-alt-left pr-2"></i> prev</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a class="next-prev d-flex align-items-center" href="#"> next <!-- &raquo; --> <i class="fas fa-long-arrow-alt-right pl-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--   Footer-->
+    <footer class="pt-2">
+        <div class="container-fluid">
+            <div class="footer-details">
+                <div class="row">
+                    <div class="col-lg-5 col-mb-5 col-sm-12">
+                        <ul class="list-inline my-2">
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fas fa-envelope pr-2"></i> info@populationfirst.org </a>
+                            </li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fas fa-mobile-alt pr-2"></i> 91679 02776 </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-mb-4 col-sm-12">
+                        <ul class="list-inline my-2">
+                            <li class="list-inline-item">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item">
+                                <a href="#">Events</a>
+                            </li>
+                            <li class="list-inline-item">|</li>
+                            <li class="list-inline-item">
+                                <a href="#">Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-mb-3 col-sm-12">
+                        <ul class="list-inline social-buttons mb-0 mt-0">
+                            <li class="list-inline-item">
+                                <a class="fb" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="tw" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="youtube" href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="col-lg-9 col-md-12 text-center my-2 mx-auto address">Population First,
+                        Bungalow no. 3, Paramhans CHS, Near new RTO,<br />
+                        Next to Hotel VITS Sharanam, Eastern Express Highway,
+                        Thane (W) Mumbai - 400604. India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer Ends-->
+
+
+<!-- Datepicker -->
+<script type="text/javascript">
+    var foopicker = new FooPicker({
+      id: 'datepicker',
+      dateFormat: 'dd/MM/yyyy',
+      disable: ['29/07/2017', '30/07/2017', '31/07/2017', '01/08/2017']
+    });
+    var foopicker2 = new FooPicker({
+      id: 'datepicker2'
+    });
+  </script>
+
+<!--  Navigation After scroll color -->
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                $('#mynav').toggleClass("navImage", ($(window).scrollTop() > 125));
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    400: {
+                        items: 2,
+                        nav: false
+                    },
+                    600: {
+                        items: 3,
+                        nav: true
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true,
+                        margin: 20
+                    },
+                    1200: {
+                        items: 4,
+                        nav: true,
+                        loop: true,
+                        margin: 30
+                    }
+                }
+            })
+        })
+    </script>
+
+    <!-- On Tab Tab Banner Change -->
+    <script>
+        function changeImage(val) {
+            if (val == 1) {
+                $('#media-center').css("background-image", "url('images/pages-banner/media-center/media.png')");
+                // $('.heroSecTitle').html("Audio Video Resources");
+            } else if (val == 2) {
+                $('#media-center').css("background-image", "url('images/pages-banner/media-center/media.png')");
+                // $('.heroSecTitle').html("Newsletter");
+            } else if (val == 3) {
+                $('#media-center').css("background-image", "url('images/pages-banner/media-center/Gender-and-Media-Workshop.jpg')");
+                // $('.heroSecTitle').html("Press Release");
+            } else if (val == 4) {
+                $('#media-center').css("background-image", "url('images/pages-banner/media-center/coverage.jpg')");
+                // $('.heroSecTitle').html("Our Coverage");
+            }else if (val == 5) {
+                $('#media-center').css("background-image", "url('images/pages-banner/media-center/media.png')");
+                // $('.heroSecTitle').html("Gender Sensitivity In Media");
+            }
+        }
+    </script>
+
+</body>
+</html>

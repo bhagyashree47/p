@@ -1,0 +1,217 @@
+.BioCard {
+    transform: scale(0.8, 0.8);
+    padding: 0 30px;
+}
+
+.BioImg {
+    max-width: 460px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.OverlayText {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 1.45rem;
+    height: 100%;
+    width: 100%;
+}
+
+.OverlayText p {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.BioCard:hover .BioImg,
+.BioCard:hover .BioDetails {
+    box-shadow: 0 4px 20px 6px #dadadaa3;
+}
+
+.BioCard:hover .OverlayText {
+    display: block;
+    background: rgba(250, 211, 55, 0.8);
+    transition: background 3s ease-out;
+}
+
+.BioCard:hover .BioImg img {
+    /*transform: scale(1.6, 1.6);
+    transition: transform ease-out 1s;*/
+}
+
+.BioImg img {
+    width: 100%;
+}
+
+.BioDetails {
+    margin: 0 auto;
+    max-width: 460px;
+    text-align: center;
+    background-color: #f8f7f7;
+    padding: 0.8rem 2.65rem;
+}
+
+.BioDetails p {
+    text-align: center;
+    line-height: 2.15rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: relative;
+    text-indent: 3rem;
+    margin: 1rem 0;
+}
+
+.BioDetails h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.BioDetails p:before,
+.BioDetails p:after {
+    content: "";
+    display: block;
+    height: 2rem;
+    width: 3rem;
+    position: absolute;
+}
+
+.BioDetails p:before {
+    background-image: url('../images/Quote-top.png');
+    background-repeat: no-repeat;
+}
+
+.BioDetails p:after {
+    background-image: url(../images/Quote-bottom.png);
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: -8px;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width:1199px) {
+    .OverlayText p {
+        font-size: 1.05rem;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .BioCard {
+        /*transform: scale(0.9, 0.9);*/
+    }
+
+    .BioDetails {
+        padding: 0.8rem 1rem;
+    }
+
+    .BioDetails p:before,
+    .BioDetails p:after {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .BioDetails p:before {
+        background-size: contain;
+    }
+
+    .BioDetails p:after {
+        background-size: contain;
+        right: 1rem;
+    }
+
+    .BioDetails p {
+        line-height: 1.6rem;
+        font-size: 1rem;
+        text-indent: 2.5rem;
+    }
+
+    .BioDetails h4 {
+        font-size: 1.4rem;
+    }
+
+    .OverlayText {
+        padding: 0.5rem;
+    }
+
+    .OverlayText p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .OverlayText p {
+        font-size: 1rem;
+    }
+
+    .BioDetails p {
+        line-height: 2.6rem;
+        font-size: 1.45rem;
+        text-indent: 20px;
+    }
+
+}
+
+@media only screen and (max-width:520px) {
+
+    /*
+    .BioDetails p {
+        font-size: 1rem;
+        text-indent: 2rem;
+    }
+
+    .BioDetails p:after {
+        right: 1rem;
+    }
+*/
+    .BioCard {
+        transform: scale(1, 1);
+    }
+
+    #ourMembers .container .row .custom-col {
+        padding: 0;
+        margin: 1rem 0;
+    }
+
+    .BioDetails p {
+        display: none;
+    }
+
+    .OverlayText p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .BioDetails p {
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+    }
+
+    .OverlayText p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .OverlayText p {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .BioDetails p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        text-indent: 1rem;
+    }
+}

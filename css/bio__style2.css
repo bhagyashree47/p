@@ -1,0 +1,156 @@
+.ProfileContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ProfileCard {
+    width: 25%;
+    min-width: 275px;
+    margin-bottom: 4rem;
+}
+
+.profileImg {
+    position: relative;
+}
+
+.profileImg img {
+    width: 100%;
+}
+
+.profileOverlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 211, 55, 0.8);
+    padding: 0.6rem;
+    height: 100%;
+    width: 100%;
+}
+
+.profileOverlay p {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* font-size: 1.05rem; */
+    font-size: 1.01rem;
+    line-height: 1.6rem;
+    padding: 0.8rem;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.profileName {
+    background-color: #FFCC00;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.profileName h4,
+.profileName p {
+    margin: 0;
+}
+
+.profileName h4 {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.profileName p {
+    font-size: 1.05rem;
+}
+
+.ProfileCard:hover .profileOverlay {
+    display: block;
+    transition: all ease-in .5s;
+}
+
+/* .ProfileContainer .ProfileCard:nth-child(8) {
+    margin-right: 15%;
+}
+
+.ProfileContainer .ProfileCard:nth-child(7) {
+    margin-left: 15%;
+}
+
+.ProfileContainer .ProfileCard:nth-child(5) .profileOverlay p,
+.ProfileContainer .ProfileCard:nth-child(6) .profileOverlay p {
+    font-size: 0.9rem;
+} */
+
+
+@media only screen and (max-width:991px) {
+    .ProfileCard {
+        margin-bottom: 2rem;
+    }
+
+    .profileOverlay p {
+        font-size: 0.8rem;
+    }
+
+    .ProfileContainer .ProfileCard:nth-child(5) .profileOverlay p,
+    .ProfileContainer .ProfileCard:nth-child(6) .profileOverlay p {
+        font-size: 0.6rem;
+    }
+
+    .profileName h4 {
+        font-size: 1.05rem;
+    }
+
+    .profileName p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .ProfileContainer {
+        padding: 0;
+    }
+
+    .ProfileCard {
+        width: 40%;
+    }
+
+    .ProfileContainer .ProfileCard:nth-child(8),
+    .ProfileContainer .ProfileCard:nth-child(7) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+        {}
+
+    @media only screen and (max-width:500px) {
+        .ProfileCard {
+            width: 45%;
+            min-width: 240px;
+        }
+
+        .profileOverlay p {
+            font-size: 0.8rem;
+        }
+
+        .ProfileContainer {
+            padding: 0;
+        }
+    }
+
+    @media only screen and (max-width:425px) {
+        .ProfileContainer {
+            justify-content: space-around;
+        }
+    }
+
+    @media only screen and (max-width:375px) {
+        .ProfileCard {
+            width: 45%;
+            min-width: 210px;
+        }
+
+        .ProfileContainer .ProfileCard:nth-child(5) .profileOverlay p,
+        .ProfileContainer .ProfileCard:nth-child(6) .profileOverlay p {
+            font-size: 0.65rem;
+        }
+    }

@@ -1,0 +1,1156 @@
+@media (max-width: 1920px) {
+    footer {
+        height: 320px;
+
+    }
+
+    .footer-details {
+        margin: 310px 0 0;
+    }
+}
+
+@media(max-width: 1440px) {
+        .carousel-item {
+        height: 28rem;
+    }
+
+    /* Our Projects */
+    figure.effect-bubba:hover h2 {
+        padding-top: 16%;
+    }
+    .top-slider .carousel-caption h1, .top-slider .carousel-caption h2, .top-slider .carousel-caption h3 {
+        font-size: 1.8rem;
+    }
+    .btn-common {
+        padding: 10px 10px
+    }
+
+    figure.effect-bubba p {
+        padding: 0px 2.5em;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+    .grid figure.effect-bubba:hover figcaption > a {
+        height: 40px;
+        padding: 8px 14px;
+    }
+
+    .grid figure figcaption {
+        font-size: 1.2em;
+    }
+
+    .footer-details {
+        margin: 230px 0 0;
+    }
+
+    /* Our Projects */
+}
+
+@media(max-width: 1320px) {
+
+
+    /* Slider */
+    /* .top-slider .carousel-caption h1,
+    .top-slider .carousel-caption h2,
+    .top-slider .carousel-caption h3 {
+        font-size: 4rem;
+    } */
+
+    /* Slider */
+    /* Logo */
+    div#popLogo {
+        margin: 0 0 1rem;
+    }
+
+    .logo {
+        background-color: #fff;
+        height: 100px;
+    }
+
+    /* Logo */
+    /* Navbar */
+    nav.navbar.fixed-top.nav-bg {
+        background-color: #111;
+        /*margin-top: 100px;*/
+    }
+
+    /* Navbar */
+
+    /* Our Projects */
+    .grid figure figcaption {
+        font-size: 1.15em;
+    }
+
+    /* Our Projects */
+    .btn-common {
+        padding: 10px 8px;
+    }
+
+    /* Who we are  */
+    .who-we-are-bg img {
+        max-width: 50%;
+    }
+
+    .who-we-are p {
+        color: black;
+        font-size: 1rem;
+    }
+
+    .who-we-are p {
+        color: black;
+        font-size: 1rem;
+    }
+
+    /* Who we are  */
+}
+
+@media (max-width:1199px) {
+/* Ankita 17.1.20 */
+    .date-block i{
+        right: 40px;
+    }
+/* Ankita 17.1.20 */
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.5rem 0.8rem;
+    }
+
+    #navbarResponsive {
+        justify-content: center;
+    }
+
+    .navbar-nav li.nav-item {
+        margin: 0 5px !important;
+    }
+
+    /* Navbar */
+    /* Our Events */
+    .tab-event li.nav-item,
+    .tab-event li.nav-item:first-child {
+        padding: 0 5px;
+        margin: 0;
+    }
+
+    /* Our Events */
+    /* Footer */
+    ul.social-buttons li a {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 38px;
+    }
+
+    .phone.pl-4 {
+        padding-left: 0.2rem !important;
+    }
+
+    /* Footer */
+    /* our-projects */
+    .grid figure {
+        margin: 0;
+    }
+
+    .grid figure figcaption {
+        font-size: 0.9em;
+    }
+
+    footer a,
+    footer .address {
+        font-size: 1.15rem;
+    }
+
+    /* our-projects */
+}
+
+@media (max-width: 1080px) {
+    figure.effect-bubba p {
+        font-size: 0.85rem;
+    }
+
+    footer a,
+    footer .address {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1024px) {
+    
+    /* .top-slider .carousel-caption h1,
+    .top-slider .carousel-caption h2,
+    .top-slider .carousel-caption h3 {
+        font-size: 2.5rem;
+    } */
+    .upcoming-details-content p {
+        font-size: 1.6rem;
+    }
+    .upcoming-location, .upcoming-date {
+        font-size: 1.2rem;
+    }
+    .carousel-caption {
+        width: 60%;
+    }
+
+    /* our-projects */
+    figure.effect-bubba figcaption::before,
+    figure.effect-bubba figcaption::after {
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    figure.effect-bubba p {
+        padding: 0px 2.5em;
+        font-size: 0.85rem;
+        line-height: 22px;
+    }
+
+    figure.effect-bubba:hover h2 {
+        padding-top: 10%;
+    }
+
+    /* who we are */
+    .who-we-are-content {
+        top: 42%;
+    }
+
+    /* Event */
+    .event-date {
+        padding: 12px;
+        font-size: 1.3rem;
+        height: 100px;
+    }
+
+    /* Event */
+    footer {
+        background-size: 65rem;
+        height: auto;
+    }
+
+    footer .container {
+        background-color: #ebeaea;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .footer-details {
+        margin: 12rem 0 0;
+    }
+}
+
+@media (max-width:991px) {
+    .subscribe-div {
+        margin-top: 15px;
+    }
+    .carousel-caption a h3 {
+        font-size: 1.4rem;
+    }
+    .sensitive-media .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    .testimonials .carousel-item {
+        height: auto;
+        min-height: 400px;
+    }
+    .submenu-block .nav-tabs .nav-link.active, .submenu-block .nav-tabs .nav-link {
+        margin: 0 !important;
+        font-size: 18px;
+        height: 150px;
+    }
+
+    .EventDetails p {
+        border: none !important;
+    }
+    .past-col-details h4 {
+        line-height: 32px;
+        font-size: 20px;
+    }
+
+    /* Ankita 17.1.20 */
+    #Media-Coverage figure {
+        height: 150px;
+    }
+    #Media-Coverage figure img {
+        margin: 0;
+        border-radius: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: auto;
+        transform: translate(-50%,-50%);
+    }
+    .date-block input {
+        width: 59%;
+    }
+    .date-block i {
+        right: 20px;
+    }
+    .section-heading-twoLine p, .section-heading {
+        font-size: 1.7rem !important;
+    }
+    .section-heading-twoLine p:before, .section-heading-twoLine p:after {
+        width: 100px;
+        top: 55px;
+    }
+/* Ankita 17.1.20 */
+
+    .MainPage-Tab .nav-pills.custom_nav .nav-link{
+        font-size: 1rem;
+        padding: 0;
+    }
+    .MainPage-Tab .nav-pills.custom_nav .nav-link.active, .MainPage-Tab .nav-pills.custom_nav .show > .nav-link.custom_nav {
+        padding: 0;
+    }
+
+    /* Navigation */
+    .MainPage-Tab .navbar-nav li.nav-item {
+        margin: 0;
+    }
+
+    .MainPage-Tab ul.nav.nav-pills.custom_nav {
+        top: 3.5rem;
+    }
+
+    /* p.heroSecTitle {
+        left: 41%;
+    } */
+
+    /*Footer */
+    footer {
+        height: 100%;
+    }
+
+    .footer-details {
+        margin: 160px 0 0;
+    }
+
+    .footer-details .row div:nth-child(1),
+    .footer-details .row div:nth-child(2),
+    .footer-details .row div:nth-child(3) {
+        text-align: center;
+    }
+
+    /*Footer */
+    /* Our Event */
+    .event-date {
+        background: #ebebeb;
+        height: 160px;
+        padding: 40px;
+    }
+
+    .section-heading:before,
+    .section-heading:after {
+        width: 2rem;
+    }
+
+    /* Our Event */
+    /* Who we are  */
+    
+
+    .who-we-are-bg {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .who-we-are-bg {
+        height: 350px;
+        position: relative;
+    }
+    .who-we-are-bg .who-we-are-content {
+        width: 80%;
+        font-size: 1rem;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.8);
+        top: 0;
+        height: auto;
+        right: 0;
+        position: relative;
+        text-align: left;
+    }
+    .who-we-are-content br {
+        display: none;
+    }
+    .who-we-are-content .btn-common {
+        background: #ffcc00;
+        font-size: 1.2rem;
+    }
+
+    /* Who we are  */
+    /* Navbar */
+    nav.navbar.fixed-top.nav-bg {
+        opacity: 1 !important;
+        background-color: #111 !important;
+    }
+
+    .vision p:before {
+        top: 0x;
+        left: 50%;
+        position: relative;
+
+    }
+    .vision p:after {
+        bottom: 0px;
+        position: relative;
+        left: 50%;
+    }
+    /* Blog section */
+    .subscribe {
+        margin-top: 30px;
+    }
+    .subscribe img {
+        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
+        height: 250px;
+    }
+    /* Footer */
+    footer.contact-info {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .phone.pl-4 {
+        padding-left: 1.2rem !important;
+    }
+
+    /* Our Events */
+    .upcoming-details-bg {
+        height: 462px;
+    }
+
+    .upcoming-details-content p {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    /* Our Events */
+    .vision {
+        padding: 3rem 3rem;
+    }
+    #AboutUs{
+        background-position: center;
+    }
+}
+
+@media (max-width:850px) {
+    .logo {
+        height: 40px;
+    }
+
+    nav.navbar.fixed-top.nav-bg {
+        background-color: #111;
+        /*margin-top: 80px;*/
+    }
+
+    .vision {
+        padding: 3rem 1rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+    /* Ankita 18.12.19*/
+    .date-block input {
+        width: 78%;
+    }
+    .file-downBtn {
+        display: block;
+        text-align: center;
+    }
+    a.down-pdf {
+        display: block;
+        margin: 15px 0 0 0 !important;
+    }
+    .MainPage-Tab .nav-pills.custom_nav .nav-link {
+        font-size: 0.9rem;
+        height: 60px;
+        width: 240px;
+    }
+   /* Ankita End 18.12.19*/
+
+    div#popLogo {
+        margin: 0 0 3rem;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: inherit;
+        pointer-events:all !important;
+    }
+    header .carousel-caption {
+        display: block !important;
+    }
+
+    /* p.heroSecTitle {
+        left: 35%;
+    } */
+
+    .MainPage-Tab .nav-pills .nav-link {
+        font-size: 1.05rem;
+    }
+
+    .who-we-are-bg .who-we-are-content {
+        padding: 25px;
+    }
+
+    /* Slider */
+    /* .top-slider .carousel-caption h1,
+    .top-slider .carousel-caption h2,
+    .top-slider .carousel-caption h3 {
+        font-size: 2rem;
+    } */
+
+    /* Slider */
+
+    /* Our Event */
+    .event-date {
+        height: 160px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Our Event */
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .MainPage-Tab .nav-pills .nav-link.active,
+    .MainPage-Tab .nav-pills .show > .nav-link {
+        background-color: #E81A25 !important;
+        padding: 0.75em 1rem !important;
+    }
+
+    /* Who we are  */
+    .who-we-are-bg .who-we-are-content p {
+        font-size: 1rem;
+    }
+
+    /* Who we are  */
+
+    /* Blog section */
+    .view.overlay {
+        margin-top: 30px;
+    }
+
+    .view.overlay img {
+        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
+        height: 250px
+    }
+
+    /* Blog section */
+
+    /* Sensitive Media */
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption {
+        bottom: 30px !important;
+    }
+
+    footer {
+        background-size: 50rem;
+    }
+
+    .footer-details {
+        margin: 10rem 0 0;
+    }
+
+    footer .container {
+        background-color: #ebeaea;
+        max-width: 100%;
+    }
+    .dropdown-item{
+    white-space: pre-line !important;
+    margin: 0.5rem 0;
+    }
+}
+@media(max-width: 767px) {
+    .upcoming-details {
+        padding: 40px;
+    }
+    .upcoming-details-content p {
+        font-size: 1.6rem;
+    }
+    .upcoming-location, .upcoming-date {
+        font-size: 1.2rem;
+        display: flex;
+    }
+    .testimonials .carousel-item {
+        height: auto;
+        min-height: 510px;
+    }
+    .MainPage-Tab .row .nav-pills.custom_nav, ul#myTab-five, 
+    #YouthInitiatives-PerspectiveBuilding, #YouthInitiatives-Mainstreaming, 
+    #YouthInitiatives-Institutionalizing, #MediaAdvocacy-GenderMediaWorkshops,
+    #MediaAdvocacy-CreatingInstitutionalSupport   {
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .submenu-block .nav-tabs .nav-link.active, .submenu-block .nav-tabs .nav-link {
+        width: 200px;
+    }
+    #Media-Coverage figure {
+        height: auto;
+        position: unset;
+    }
+    #Media-Coverage a {
+        /* display: contents; */
+        display: inline-block;
+        margin-bottom: 20px !important;
+    }
+    #Media-Coverage figure img {
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: none;
+    }
+    h5.Sensitive-media, #Media-Coverage figure , #Media-Sensitivity figure {
+        padding: 0 15px;
+    }
+    
+    .date-block input {
+        width: 78%;
+    }
+    .date-block i {
+        right: 25px;
+    }
+    .section-heading-twoLine p:before, .section-heading-twoLine p:after {
+        width: 100px;
+    }
+    .detailed-description h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .media-banner {
+        height: 300px;
+    }
+    .media-text {
+        font-size: 1.4rem;
+    }
+    .testimonials .carousel-item {
+        min-height: 450px;
+    }
+    .carousel-caption, .carousel-caption h5 {
+        top: 20px !important;
+        font-size: 16px;
+    }
+    .testimonials .carousel-caption {
+        width: 80%;
+        left: 10%;
+        line-height: 25px;
+        text-align: justify;    
+    }
+    .testimonials p:before {
+        margin: -10px -40px;
+    }
+
+    .carousel-caption {
+        top: 60px !important;
+        width: 70%;
+    }
+
+    #carousel-example-2 .carousel-caption {
+        top: 0 !important;
+        width: 100%;
+    }
+
+    .btn-common {
+        margin: 0.5em;
+    }
+
+    .MainPage-Tab .nav-pills .nav-link {
+        margin: 0.65rem;
+    }
+}
+
+@media(max-width: 575px) {
+    .pf-accordian .accordion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+    }
+    p.heroSecTitle {
+        font-size: 2rem;
+    }
+    .testimonials .carousel-caption {
+        text-align: left;  
+    }
+    div#popLogo {
+        margin: 0 0 1.5rem;
+    }
+
+    /* Our Event */
+    .event-date {
+        height: 100px;
+        padding: 10px;
+        width: 100px !important;
+        margin: 0 auto;
+    }
+
+    .details {
+        border-left: none;
+    }
+
+    .upcoming-details-bg {
+        height: 480px;
+    }
+
+    .upcoming-details {
+        padding: 50px 15px;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .section-heading:before,
+    .section-heading:after {
+        width: 1.5rem;
+    }
+
+    /* Our Event */
+    /*    Who we are*/
+
+
+    .who-we-are-bg .who-we-are-content {
+        width: 90%;
+    }
+
+    /* sensitive-media */
+    .sensitive-media {
+        background: url(../images/media.jpg) no-repeat center center / cover;
+        height: auto;
+    }
+
+    /* sensitive-media */
+
+    /* Our Projects */
+    .grid figure {
+        margin: 0px;
+    }
+
+    figure.effect-bubba:hover h2 {
+        padding-top: 15%;
+    }
+    .grid figure.effect-bubba:hover figcaption > a {
+        height: auto;
+        line-height: 30px;
+        margin: 10px auto 0;
+        width: 45%;
+        left: 28%;
+    }
+    figure.effect-bubba p {
+        padding: 0px 30px;
+    }
+    .grid figure figcaption {
+        font-size: 1em;
+    }
+    .grid figure h2:after {
+        margin: 10px auto;
+    }
+    figure.effect-bubba figcaption::before,
+    figure.effect-bubba figcaption::after {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+    }
+    #pContainer h3:before,
+    #pContainer h3:after {
+        width: 4rem;
+    }
+    /* Our Projects */
+    /* Footer */
+    .footer-details {
+        margin: 10rem 0 0;
+    }
+    /* Footer */
+}
+@media (max-width: 532px){
+
+.date-block input {
+    width: 77%;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 8% !important;
+}
+.carousel-item {
+    height: 20rem;
+}
+.btn-common {
+    padding: 10px 10px;
+    margin: 0 5px;
+    min-width: 130px;
+    font-size: 1rem;
+}
+.top-slider .carousel-caption h1, .top-slider .carousel-caption h2, .top-slider .carousel-caption h3 {
+    font-size: 1.4rem;
+}
+}
+@media(max-width:500px) {
+    .who-we-are p {
+        margin: 20px 0 0;
+    }
+    .details {
+        text-align: center;
+    }
+    .testimonials .carousel-item {
+        min-height: 550px;
+    }
+    .testimonials p:before {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0;
+    }
+    .margin-bottom2 {
+        margin-bottom: 2.25rem;
+    }
+    .margin-top5 {
+        margin-top: 4.25rem;
+    }
+    .margin-bottom4 {
+        margin-bottom: 2.31825rem;
+    }
+    .MainPage-Tab .nav-pills .nav-link {
+        margin: 0.35rem;
+        font-size: 1rem;
+    }
+    .who-we-are-bg .who-we-are-content p {
+        font-size: 1rem;
+    }
+    .tabDetails .tab-content h1 {
+        font-size: 1.3rem;
+    }
+    .section-heading,
+    .sensitive-media .section-heading,
+    .media-coverage .section-heading,
+    .blog-section-heading {
+        font-size: 1.75rem;
+    }
+    .section-heading:before,
+    .sensitive-media .section-heading:before,
+    .media-coverage .section-heading:before {
+        border: 0;
+        display: block;
+    }
+    .blog-section-heading:after {
+        top: 60px;
+    }
+    .section-heading:before,
+    .section-heading:after, .section-heading-twoLine p:before {
+        border-top: 0;
+        transform: translateY(0);
+    }
+    .section-heading:after,
+    .sensitive-media .section-heading:after,
+    .media-coverage .section-heading:after {
+        border-bottom: 3px solid #FFCC00;
+        width: 30%;
+        bottom: -5px;
+        left: 35%;
+        position: absolute;
+        margin: 0 auto;
+    }
+    .section-heading-twoLine p:after{
+        display: none;
+    }
+    .section-heading-twoLine p:before  {
+        border-bottom: 3px solid #FFCC00;
+        width: 30%;
+        bottom: -5px;
+        left: 35%;
+        position: absolute;
+        margin: 0 auto;
+    }
+    /* .vision p:before {
+        top: -32px;
+    }
+
+    .vision p:after {
+        bottom: -30px;
+    } */
+    .demo .tabDetails{
+        padding: 2rem 0;
+    }
+    .tab-content p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .carousleContent p {
+    font-size: 0.875rem;
+    width: 65%;
+    }
+
+    .partners {
+        padding: 30px 15px;
+    }
+
+    .partners a img {
+        width: 8rem;
+    }
+
+    footer {
+        background-size: 33rem;
+    }
+
+    .footer-details {
+        margin: 7rem 0 0 0;
+    }
+
+    .MainPage-Tab .nav-pills .nav-link {
+        padding: 0.8rem .9rem;
+    }
+
+    .nav-tab-heading {
+        flex-wrap: nowrap !important;
+    }
+
+    #AboutUs {
+        background-image: url('../images/aboutUsMobile.png');
+        background-repeat: no-repeat;
+    }
+    #AboutUs.heroImage.Laadli{
+        background: url('../images/laadliMobilebg.png');
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 498px){
+    .date-block input {
+        width: 100%;
+        top: 32px;
+    }
+    .date-block i {
+        top: 32px;
+    }
+}
+@media(max-width: 425px) {
+    .testimonials .carousel-item {
+        min-height: 680px;
+    }
+    .event-tab .nav-pills .nav-link {
+        margin: 0;
+    }
+    .event-date {
+        font-size: 1.2rem;
+    }
+    .event-venue {
+        font-size: 1rem;
+    }
+    .top-slider .carousel-caption h1, .top-slider .carousel-caption h2, .top-slider .carousel-caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+    }
+    #carouselExampleIndicators .carousel-caption {
+        width: 80%;
+        left: 9% !important;
+    }
+    div#popLogo {
+        margin: 0 0 0.5rem;
+    }
+    .btn-common {
+        padding: 6px 10px;
+        min-width: 116px;
+        font-size: 1rem;
+        border-radius: 0.4em;
+    }
+    .section-heading:before,
+    .section-heading:after {
+        content: "";
+    }
+    .audio-reports .row div {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    /* Sensitive Media */
+
+    .sensitive-media .section-heading:before,
+    .sensitive-media .section-heading:after,
+    .media-coverage .section-heading:before,
+    .media-coverage .section-heading:after {
+        content: "";
+    }
+
+    /* Sensitive Media */
+    
+    /* Who we are  */
+
+    /* Event */
+    .upcoming-details {
+        width: 90%;
+    }
+    /* Event */
+
+    /* Projects */
+    figure.effect-bubba p {
+        padding: 0px 2.5em;
+        font-size: 0.9rem;
+        line-height: 28px;
+    }
+
+    figure.effect-bubba:hover h2 {
+        padding-top: 20%;
+    }
+
+    /* .btn-common,
+    button.btn.btn-donate {
+        padding: 10px 12px;
+        margin: 0.5rem 0;
+    } */
+
+    /* p.heroSecTitle {
+        left: 29%;
+    } */
+
+    .upcoming-details-content p,
+    .upcoming-location,
+    .upcoming-date,
+    .upcoming-location i,
+    .upcoming-date i {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    /* Projects */
+    .footer-details .contact-info {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info span {
+        margin: 0.7rem 0 0 0;
+    }
+
+    .contact-info span a {
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 375px) {
+    div#popLogo {
+        margin: 0 0 0.25rem;
+    }
+    
+
+    /* Who we are  */
+    .who-we-are-bg .who-we-are-content p {
+        font-size: 0.9rem;
+    }
+
+    /* Who we are  */
+
+
+    /* Blog */
+    form.scr-form p {
+        font-size: 1.6rem;
+    }
+
+    .media-text {
+        font-size: 1.2rem;
+    }
+
+    /* Blog */
+
+    /* Slider */
+
+    .top-slider .carousel-caption h2,
+    .top-slider .carousel-caption h3,
+    .carousel-location-details {
+        font-size: 1.2rem;
+    }
+
+
+    /* Slider */
+    /* Sensitive Media */
+    .sensitive-media small {
+        font-size: 0.9rem;
+    }
+
+    /* Sensitive Media */
+
+    /* Who we are  */
+
+    .who-we-are-content .btn-common {
+        padding: 4px 16px;
+        font-size: 1rem;
+    }
+
+    /* Who we are  */
+    /* Footer */
+    .contact-info {
+        display: block;
+    }
+
+    .contact-info span {
+        display: inline-block;
+        justify-content: start;
+        opacity: 0.7;
+    }
+
+    .partners {
+        padding: 20px 15px 70px;
+    }
+
+    /* Footer */
+
+    /* Our Projects */
+    figure.effect-bubba:hover h2 {
+        padding-top: 5%;
+    }
+
+    .grid figure {
+        height: 380px;
+    }
+    .who-we-are p {
+        color: black;
+        font-size: 1rem;
+        margin-top: 16px;
+    }
+
+    figure.effect-bubba p {
+        padding: 0px 1em;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+    .grid figure.effect-bubba:hover figcaption > a {
+        left: 26%;
+        font-size: 1rem;
+    }
+
+    figure.effect-bubba figcaption::before,
+    figure.effect-bubba figcaption::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0px;
+    }
+
+    /* Our Projects */
+}
+
+@media (max-width:320px) {
+    div#popLogo {
+        margin: 0;
+    }
+
+    /* p.heroSecTitle {
+        left: 22%;
+    } */
+}
